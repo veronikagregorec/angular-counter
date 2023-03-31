@@ -1,0 +1,89 @@
+.wrapOutside{
+    margin-top: 70px;
+    padding: 60px  100px  70px 100px;
+    border: 1px solid var(--blueColor);
+    background-color: var(--greyBlueColor);
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+input{
+    outline: none;
+    width: 220px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid var(--blueColor)
+}
+
+.btnSubmit{
+    margin-top: 20px;
+    border: 1px solid var(--blueColor);
+    padding: 7px;
+    background-color: var(--lightOrangeColor);
+    width: 80px;
+}
+
+.btnSubmit:hover{
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+.btnSubmit:active {
+    background-color: var(--darkOrangeColor);
+    color: var(--whiteColor)
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btnIncrement{
+    margin-left: 7px;
+    width: 90px;
+    border: 1px solid var(--blueColor);
+    padding: 5px;
+}
+
+.btnIncrement:active, .btnDecrement:active{
+    background-color: var(--darkOrangeColor);
+    color: var(--whiteColor)
+}
+
+.btnDecrement{
+    width: 90px;
+    border: 1px solid var(--blueColor);
+    padding: 5px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.list{
+    display: grid;
+    place-items: center;
+}
+
+.cardWrap{
+    padding: 30px 70px 30px 70px;
+    background-color: var(--greyBlueColor);
+}
+
+@media screen and (max-width: 360px) {
+    .wrapOutside {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 40px 70px 40px 70px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .cardWrap {
+        padding: 20px 50px 20px 50px;
+    }
+}
