@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --lightOrangeColor: #FEECE9;
+    --greyBlueColor: #eff0f6;
+    --orangeColor: #FE7E6D;
+    --darkOrangeColor: #fe4c34;
+    --blueColor: #2F3A8F;
+    --whiteColor: #fff;
+    --blackColor: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, var(--orangeColor), var(--darkOrangeColor));
+}
