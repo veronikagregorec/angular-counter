@@ -1,27 +1,33 @@
-# AngularCounter
+# Angular Counter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+Incremental and decremental counter using Angular with NgRx.
 
-## Development server
+## Browser Compatibility
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>Opera</b> browsers are supported.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Steps to install
 
-## Build
+<ol>
+  <li>download the folder/git clone the repo</li>
+  <li>cd root directory of the folder</li>
+  <li>npm install</li>
+  <li>ng serve -o</li>
+  <li>access localhost:4200 on your browser</li>
+</ol>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshots
 
-## Running unit tests
+Counter count by page with counter by 1.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](screenshots/counter-by.png)
 
-## Running end-to-end tests
+Add a new counter page with input and Add button. Screenshot also shows the input of the name with the Increment and Decrement buttons.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![](screenshots/new-counter.png)
 
-## Further help
+See code <a href="https://github.com/veronikagregorec/angular-counter/tree/main/src/app" target="_blank">here</a>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Back to the top](#angular-counter)
