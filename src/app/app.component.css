@@ -7,7 +7,7 @@
 
 .wrapInside {
     width: 100%;
-    background-color: var(--lightOrangeColor);
+    background-color: var(--lightOrange);
 }
 
 .nav{
@@ -25,36 +25,17 @@ ul li a{
 }
 
 .nav-item {
-    display: inline-block;
-    position: relative;
+
     text-transform: uppercase;
 }
-
+/* 
 a{
     color: var(--blueColor);
-}
-
-.nav-item::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 4px;
-    bottom: -5px;
-    left: 0;
-    background-color: var(--darkOrangeColor);
-    transform-origin: bottom right;
-    transition: transform 0.45s ease-out;
-}
-
-.nav-item:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
+} */
 
 .active {
     padding: 10px;
-    color: var(--darkOrangeColor);
+    color: var(--orange);
 }
 
 @media screen and (max-width: 768px) {

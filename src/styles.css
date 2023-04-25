@@ -1,9 +1,8 @@
 :root{
-    --lightOrangeColor: #FEECE9;
-    --greyBlueColor: #eff0f6;
-    --orangeColor: #FE7E6D;
-    --darkOrangeColor: #fe4c34;
-    --blueColor: #2F3A8F;
+    --orange: #f5853f;
+    --lightOrange: #fef0e7;
+    --darkViolet: #472c4c;
+    --lightViolet: #f5eff6;
     --whiteColor: #fff;
     --blackColor: #000;
 }
@@ -16,5 +15,6 @@
 }
 
 body{
-    background: linear-gradient(90deg, var(--orangeColor), var(--darkOrangeColor));
+    background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, var(--orange) 8.3%, var(--darkViolet) 79.4%);
+    min-height: 100vh;
 }
