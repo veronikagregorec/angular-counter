@@ -1,0 +1,17 @@
+<div class="wrap">
+    <div class="wrapInside">
+        <ul class="nav">
+
+            <li class="nav-item">
+                <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['single']">Counter count by</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['list']">Add a new counter</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <router-outlet></router-outlet>
+</div>

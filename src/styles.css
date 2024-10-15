@@ -1,0 +1,20 @@
+:root{
+    --orange: #f5853f;
+    --lightOrange: #fef0e7;
+    --darkViolet: #472c4c;
+    --lightViolet: #f5eff6;
+    --whiteColor: #fff;
+    --blackColor: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, var(--orange) 8.3%, var(--darkViolet) 79.4%);
+    min-height: 100vh;
+}

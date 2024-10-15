@@ -1,0 +1,26 @@
+<div class="wrapOutside">
+<div class="wrap">
+    <h2>Add a new counter</h2>
+    <form [formGroup]="form" (ngSubmit)="submit(focusMe)">
+        <div class="form-group">
+            <label for="Name">Name</label><br>
+            <input class="form-control" #focusMe formControlName="name" name="Name">
+        </div>
+        <button class="btnSubmit" [disabled]="!isFormValid()" type="submit">Add</button>
+    </form>
+</div>
+</div>
+
+
+<div class="list">
+    <div class="card" *ngFor="let counter of counters$ | async">
+        <div class="cardWrap">
+            <h3>{{counter.name}}</h3>
+            <p>Currently at {{ counter.current }}</p>
+            <div>
+                <button (click)="decrement(counter)" class="btnDecrement">Decrement</button>
+                <button (click)="increment(counter)" class="btnIncrement">Increment</button>
+            </div>
+        </div>
+    </div>
+</div>
